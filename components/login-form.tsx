@@ -77,7 +77,7 @@ export default function LoginForm() {
         href="/signup"
         className="flex flex-row gap-1 text-sm text-zinc-400"
       >
-        No account yet? <div className="font-semibold underline">Sign up</div>
+        Não tem conta? <div className="font-semibold underline">Criar uma</div>
       </Link>
     </form>
   )

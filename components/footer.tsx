@@ -12,10 +12,10 @@ export function FooterText({ className, ...props }: React.ComponentProps<'p'>) {
       )}
       {...props}
     >
-      Open source AI chatbot built with{' '}
-      <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
+      Open source AI chatbot {' '}
+      <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> {' '}
       <ExternalLink href="https://github.com/vercel/ai">
-        Vercel AI SDK
+        EuFabianoLp
       </ExternalLink>
       .
     </p>

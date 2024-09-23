@@ -71,8 +71,8 @@ export function Header() {
           className={cn(buttonVariants())}
         >
           <IconVercel className="mr-2" />
-          <span className="hidden sm:block">Deploy to Vercel</span>
-          <span className="sm:hidden">Deploy</span>
+          <span className="hidden sm:block">EuFabianoLp</span>
+          <span className="sm:hidden">Depurado</span>
         </a>
       </div>
     </header>
