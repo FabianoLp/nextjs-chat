@@ -30,7 +30,7 @@ export default function LoginForm() {
       className="flex flex-col items-center gap-4 space-y-3"
     >
       <div className="w-full flex-1 rounded-lg border bg-white px-6 pb-4 pt-8 shadow-md  md:w-96 dark:bg-zinc-950">
-        <h1 className="mb-3 text-2xl font-bold">Please log in to continue.</h1>
+        <h1 className="mb-3 text-2xl font-bold">Por favor faça login para continuar.</h1>
         <div className="w-full">
           <div>
             <label
@@ -45,7 +45,7 @@ export default function LoginForm() {
                 id="email"
                 type="email"
                 name="email"
-                placeholder="Enter your email address"
+                placeholder="Insira seu E-mail"
                 required
               />
             </div>
@@ -55,7 +55,7 @@ export default function LoginForm() {
               className="mb-3 mt-5 block text-xs font-medium text-zinc-400"
               htmlFor="password"
             >
-              Password
+              Senha
             </label>
             <div className="relative">
               <input
@@ -63,7 +63,7 @@ export default function LoginForm() {
                 id="password"
                 type="password"
                 name="password"
-                placeholder="Enter password"
+                placeholder="Insira a Senha"
                 required
                 minLength={6}
               />
